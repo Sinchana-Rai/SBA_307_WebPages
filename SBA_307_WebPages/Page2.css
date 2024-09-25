@@ -1,0 +1,57 @@
+h1, h2, h3, h4, h5, h6 {
+     text-align: center;
+     color: rgb(214, 138, 88);
+ }
+
+.btn{
+    background-color:rgb(216, 108, 108);
+
+}
+
+.h4{
+    font-family:cursive;
+}
+
+
+/* .contact-table{
+    display:flex;
+    flex-wrap: wrap;
+    width: auto;
+    height: auto;
+    /* justify-content: center; }*/
+
+table {
+        width: 20px;
+        height: 30px;
+        text-align: center;
+        border: 5px solid rgb(142, 140, 140);
+     }
+     
+
+     .ask-container{
+        display: flex;
+     }
+
+
+     /* .ask-container .btn{
+     
+
+     } */
+
+     .submit-btn{
+        display: flex;
+        flex-wrap: wrap;
+        /* justify-content: center; */
+        justify-content: space-evenly;
+     }
+
+.name-label{
+   color: rgb(228, 135, 73);
+}
+
+.gif-container{
+    display: flex;
+    justify-content: center;
+    
+
+}

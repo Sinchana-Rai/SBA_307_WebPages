@@ -1,0 +1,26 @@
+.container2{
+    display: flex;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    justify-content: space-evenly;
+    /* background-color: blueviolet; */
+     width: auto;
+    height: auto; 
+}
+
+
+.btn-primary{
+    background-color: rgb(208, 103, 103);
+}
+
+.signup-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap:20px;
+      padding: 10px;
+
+    border-top:2px solid  rgb(214, 138, 88);
+    /* align-items: center; */
+    justify-content: center;
+}
+
