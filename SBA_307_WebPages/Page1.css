@@ -1,10 +1,8 @@
 .container2{
     display: flex;
     flex-wrap: wrap;
-    /* align-items: center; */
     justify-content: space-evenly;
-    /* background-color: blueviolet; */
-     width: auto;
+    width: auto;
     height: auto; 
 }
 
@@ -17,10 +15,14 @@
     display: flex;
     flex-wrap: wrap;
     gap:20px;
-      padding: 10px;
-
+    padding: 10px;
     border-top:2px solid  rgb(214, 138, 88);
-    /* align-items: center; */
     justify-content: center;
 }
 
+#logo-image{
+    width: 100px;
+    height: 100px;
+    object-fit:contain;
+    border-radius: 20px;
+}

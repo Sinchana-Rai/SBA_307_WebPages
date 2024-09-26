@@ -13,15 +13,15 @@
             /* wiggle button */
 
             .wiggle-button {
-            /* Basic button styling (optional) */
             padding: 10px 20px;
             background-color: #e87171;
             border: none;
             cursor: pointer;
             }
 
-            .wiggle-button {
+            .wiggle-button:hover {
             animation: wiggle 3s infinite;
+            background-color:rgb(219, 210, 207);
             }
 
             @keyframes wiggle {
@@ -44,10 +44,9 @@
 
  <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
-        <img src="images/SRlogo.jpg"
+        <img id="logo-image" src="images/SRlogo.jpg"
             class="img-thumbnail" alt="Interior Design logo">
-        <!-- <img src="/SBA_307_WebPages/images/SRlogo.jpg" class="img-thumbnail" alt="Interior Design logo"> -->
-        <a class="navbar-brand" href="#"></a>
+            <a class="navbar-brand" href="#"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -55,7 +54,7 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="./Page1.html">Home</a>
+                    <a class="nav-link" aria-current="page" href="./Page1.html">Home</a>
                 </li>
                 <!-- nav dropdown -->
                 <li class="nav-item dropdown">
@@ -66,7 +65,6 @@
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="#">Living Room</a></li>
                         <li><a class="dropdown-item" href="#">Dining Room</a></li>
-                        <!-- <li><hr class="dropdown-divider"></li> -->
                         <li><a class="dropdown-item" href="#">Bedroom</a></li>
                         <li><a class="dropdown-item" href="#">Home Office</a></li>
                         <li><a class="dropdown-item" href="#">Nursery</a></li>
@@ -76,7 +74,7 @@
                 <!-- end nav dropdown -->
 
                 <li class="nav-item">
-                    <a class="nav-link" href="./Page2.html">Our Shop</a>
+                    <a class="nav-link active" href="./Page2.html">Our Shop</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="./Page3.html">Contact Us!</a>
@@ -114,7 +112,6 @@
                     <img src="https://plus.unsplash.com/premium_photo-1673014201794-0b086630d541?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fHNpZGUlMjB0YWJsZXxlbnwwfHwwfHx8MA%3D%3D"
                         alt="Side Table" width="200px" height="200px">
                     <h4> $250 </h4>
-                    <!-- <button type="button" class="btn">Buy Now</button> -->
                     <button type="button" class="btn wiggle-button">Buy Now</button>
                 </center>
             </div>
@@ -126,7 +123,6 @@
                     <img src="https://plus.unsplash.com/premium_photo-1668704252726-452ce872b349?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fHZhc2V8ZW58MHx8MHx8fDA%3D"
                         alt="Vase" width="200px" height="200px">
                     <h4> $150 </h4>
-                    <!-- <button type="button" class="btn">Buy Now</button> -->
                     <button type="button" class="btn wiggle-button">Buy Now</button>
                 </center>
             </div>
@@ -137,7 +133,6 @@
                     <img src="https://plus.unsplash.com/premium_photo-1705582800047-1aacf1e0f0ba?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGxhbXB8ZW58MHx8MHx8fDA%3D"
                         alt="Lamp" width="200px" height="200px">
                     <h4> $450 </h4>
-                    <!-- <button type="button" class="btn">Buy Now</button> -->
                     <button type="button" class="btn wiggle-button">Buy Now</button>
                 </center>
             </div>
@@ -148,7 +143,6 @@
                     <img src="https://images.unsplash.com/photo-1590310021833-36605eaf73f0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fFRhYmxlJTIwbGFtcHxlbnwwfHwwfHx8MA%3D%3D"
                         alt="Tree" width="200px" height="200px">
                     <h4> $250 </h4>
-                    <!-- <button type="button" class="btn">Buy Now</button> -->
                     <button type="button" class="btn wiggle-button">Buy Now</button>
                 </center>
             </div>
@@ -159,7 +153,6 @@
                 <img src="https://images.unsplash.com/photo-1606241018160-4985a8ab5dec?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8TWlycm9yfGVufDB8fDB8fHww"
                     alt="Mirrors" width="200px" height="200px">
                 <h4> $250 </h4>
-                <!-- <button type="button" class="btn">Buy Now</button> -->
                 <button type="button" class="btn wiggle-button">Buy Now</button>
             </center>
         </div>

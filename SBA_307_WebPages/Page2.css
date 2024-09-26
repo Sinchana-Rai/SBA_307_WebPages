@@ -13,19 +13,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-/* .contact-table{
-    display:flex;
-    flex-wrap: wrap;
-    width: auto;
-    height: auto;
-    /* justify-content: center; }*/
 
 table {
         width: 20px;
-        height: 30px;
+        height:30px;
         text-align: center;
-        border: 5px solid rgb(142, 140, 140);
+        border: 5px solid rgb(196, 86, 86);
      }
+     
      
 
      .ask-container{
@@ -33,15 +28,9 @@ table {
      }
 
 
-     /* .ask-container .btn{
-     
-
-     } */
-
      .submit-btn{
         display: flex;
         flex-wrap: wrap;
-        /* justify-content: center; */
         justify-content: space-evenly;
      }
 
@@ -52,6 +41,12 @@ table {
 .gif-container{
     display: flex;
     justify-content: center;
-    
+}
 
+
+#logo-image{
+    width: 100px;
+    height: 100px;
+    object-fit:contain;
+    border-radius: 20px;
 }
